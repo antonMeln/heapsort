@@ -72,6 +72,7 @@ int main() {
         }
         else cout << " An error has occured while reading input data.";
      }
+	delete[] a;
     return 0;
       
   }
